@@ -31,8 +31,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/params"
 )
 
 var (

@@ -9,12 +9,12 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/coreth/accounts/keystore"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie"
-	"github.com/ava-labs/coreth/trie/trienode"
-	"github.com/ava-labs/coreth/triedb"
+	"github.com/geeblock/geeblockgo/utils/wrappers"
+	"github.com/geeblock/coreth/accounts/keystore"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/trie"
+	"github.com/geeblock/coreth/trie/trienode"
+	"github.com/geeblock/coreth/triedb"
 	"github.com/holiman/uint256"
 
 	"github.com/ethereum/go-ethereum/common"

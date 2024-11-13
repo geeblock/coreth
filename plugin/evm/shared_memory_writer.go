@@ -4,9 +4,9 @@
 package evm
 
 import (
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/coreth/precompile/precompileconfig"
+	"github.com/geeblock/geeblockgo/chains/atomic"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/coreth/precompile/precompileconfig"
 )
 
 var _ precompileconfig.SharedMemoryWriter = &sharedMemoryWriter{}

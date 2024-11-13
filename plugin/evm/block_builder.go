@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/timer"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/txpool"
-	"github.com/ava-labs/coreth/params"
+	"github.com/geeblock/geeblockgo/utils/timer"
+	"github.com/geeblock/coreth/core"
+	"github.com/geeblock/coreth/core/txpool"
+	"github.com/geeblock/coreth/params"
 	"github.com/holiman/uint256"
 
-	"github.com/ava-labs/avalanchego/snow"
-	commonEng "github.com/ava-labs/avalanchego/snow/engine/common"
+	"github.com/geeblock/geeblockgo/snow"
+	commonEng "github.com/geeblock/geeblockgo/snow/engine/common"
 	"github.com/ethereum/go-ethereum/log"
 )
 

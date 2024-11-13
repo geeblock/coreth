@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/utils/crypto/bls"
 )
 
 var (

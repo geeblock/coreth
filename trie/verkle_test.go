@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie/utils"
+	"github.com/geeblock/coreth/core/rawdb"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/trie/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
 )

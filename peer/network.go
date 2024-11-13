@@ -14,17 +14,17 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/geeblock/geeblockgo/codec"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/network/p2p"
+	"github.com/geeblock/geeblockgo/snow/engine/common"
+	"github.com/geeblock/geeblockgo/snow/validators"
+	"github.com/geeblock/geeblockgo/utils"
+	"github.com/geeblock/geeblockgo/utils/set"
+	"github.com/geeblock/geeblockgo/version"
 
-	"github.com/ava-labs/coreth/peer/stats"
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/geeblock/coreth/peer/stats"
+	"github.com/geeblock/coreth/plugin/evm/message"
 )
 
 // Minimum amount of time to handle a request

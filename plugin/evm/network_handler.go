@@ -6,15 +6,15 @@ package evm
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/coreth/metrics"
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	syncHandlers "github.com/ava-labs/coreth/sync/handlers"
-	syncStats "github.com/ava-labs/coreth/sync/handlers/stats"
-	"github.com/ava-labs/coreth/triedb"
-	"github.com/ava-labs/coreth/warp"
-	warpHandlers "github.com/ava-labs/coreth/warp/handlers"
+	"github.com/geeblock/geeblockgo/codec"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/coreth/metrics"
+	"github.com/geeblock/coreth/plugin/evm/message"
+	syncHandlers "github.com/geeblock/coreth/sync/handlers"
+	syncStats "github.com/geeblock/coreth/sync/handlers/stats"
+	"github.com/geeblock/coreth/triedb"
+	"github.com/geeblock/coreth/warp"
+	warpHandlers "github.com/geeblock/coreth/warp/handlers"
 	"github.com/ethereum/go-ethereum/ethdb"
 )
 

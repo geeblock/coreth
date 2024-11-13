@@ -30,9 +30,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/trie/trienode"
-	"github.com/ava-labs/coreth/trie/triestate"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/trie/trienode"
+	"github.com/geeblock/coreth/trie/triestate"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"golang.org/x/exp/slices"

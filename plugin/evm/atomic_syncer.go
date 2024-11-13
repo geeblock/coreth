@@ -9,14 +9,14 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/geeblock/geeblockgo/database/versiondb"
+	"github.com/geeblock/geeblockgo/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	syncclient "github.com/ava-labs/coreth/sync/client"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/geeblock/coreth/plugin/evm/message"
+	syncclient "github.com/geeblock/coreth/sync/client"
+	"github.com/geeblock/coreth/trie"
 )
 
 var (

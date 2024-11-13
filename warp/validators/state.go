@@ -6,9 +6,9 @@ package validators
 import (
 	"context"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/snow/validators"
+	"github.com/geeblock/geeblockgo/utils/constants"
 )
 
 var _ validators.State = (*State)(nil)

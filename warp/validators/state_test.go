@@ -7,11 +7,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/snow/validators/validatorsmock"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/coreth/utils"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/snow/validators"
+	"github.com/geeblock/geeblockgo/snow/validators/validatorsmock"
+	"github.com/geeblock/geeblockgo/utils/constants"
+	"github.com/geeblock/coreth/utils"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

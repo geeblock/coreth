@@ -13,19 +13,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/set"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/utils/set"
 
-	commonEng "github.com/ava-labs/avalanchego/snow/engine/common"
+	commonEng "github.com/geeblock/geeblockgo/snow/engine/common"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
+	"github.com/geeblock/coreth/core"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/params"
 )
 
 func fundAddressByGenesis(addrs []common.Address) (string, error) {

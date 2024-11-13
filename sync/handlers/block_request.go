@@ -8,12 +8,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/geeblock/geeblockgo/codec"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/utils/units"
 
-	"github.com/ava-labs/coreth/plugin/evm/message"
-	"github.com/ava-labs/coreth/sync/handlers/stats"
+	"github.com/geeblock/coreth/plugin/evm/message"
+	"github.com/geeblock/coreth/sync/handlers/stats"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

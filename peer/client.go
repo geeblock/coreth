@@ -7,9 +7,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/geeblock/geeblockgo/ids"
 
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/geeblock/geeblockgo/version"
 )
 
 var (

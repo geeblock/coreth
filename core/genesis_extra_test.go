@@ -31,11 +31,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/triedb"
-	"github.com/ava-labs/coreth/utils"
+	"github.com/geeblock/coreth/core/rawdb"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/params"
+	"github.com/geeblock/coreth/triedb"
+	"github.com/geeblock/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

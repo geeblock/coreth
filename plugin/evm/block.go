@@ -14,16 +14,16 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/precompile/precompileconfig"
-	"github.com/ava-labs/coreth/predicate"
+	"github.com/geeblock/coreth/core"
+	"github.com/geeblock/coreth/core/rawdb"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/params"
+	"github.com/geeblock/coreth/precompile/precompileconfig"
+	"github.com/geeblock/coreth/predicate"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/snow/consensus/snowman"
+	"github.com/geeblock/geeblockgo/snow/engine/snowman/block"
 )
 
 var (

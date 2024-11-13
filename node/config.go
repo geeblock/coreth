@@ -31,9 +31,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/ava-labs/coreth/accounts"
-	"github.com/ava-labs/coreth/accounts/external"
-	"github.com/ava-labs/coreth/accounts/keystore"
+	"github.com/geeblock/coreth/accounts"
+	"github.com/geeblock/coreth/accounts/external"
+	"github.com/geeblock/coreth/accounts/keystore"
 	"github.com/ethereum/go-ethereum/log"
 )
 

@@ -10,13 +10,13 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"golang.org/x/exp/slog"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/formatting/address"
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/geeblock/geeblockgo/api"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/utils/crypto/secp256k1"
+	"github.com/geeblock/geeblockgo/utils/formatting"
+	"github.com/geeblock/geeblockgo/utils/formatting/address"
+	"github.com/geeblock/geeblockgo/utils/json"
+	"github.com/geeblock/geeblockgo/utils/rpc"
 )
 
 // Interface compliance

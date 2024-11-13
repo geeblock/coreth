@@ -10,13 +10,13 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/coreth/consensus"
-	"github.com/ava-labs/coreth/consensus/misc/eip4844"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/geeblock/geeblockgo/utils/timer/mockable"
+	"github.com/geeblock/coreth/consensus"
+	"github.com/geeblock/coreth/consensus/misc/eip4844"
+	"github.com/geeblock/coreth/core/state"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/params"
+	"github.com/geeblock/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 )
 

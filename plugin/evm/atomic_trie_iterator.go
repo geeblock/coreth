@@ -7,12 +7,12 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/geeblock/geeblockgo/chains/atomic"
+	"github.com/geeblock/geeblockgo/codec"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/utils/wrappers"
 
-	"github.com/ava-labs/coreth/trie"
+	"github.com/geeblock/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 )
 

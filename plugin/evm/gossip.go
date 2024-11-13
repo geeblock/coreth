@@ -14,16 +14,16 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network/p2p"
-	"github.com/ava-labs/avalanchego/network/p2p/gossip"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/network/p2p"
+	"github.com/geeblock/geeblockgo/network/p2p/gossip"
+	"github.com/geeblock/geeblockgo/snow/engine/common"
+	"github.com/geeblock/geeblockgo/utils/logging"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/txpool"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/eth"
+	"github.com/geeblock/coreth/core"
+	"github.com/geeblock/coreth/core/txpool"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/eth"
 )
 
 const pendingTxsBuffer = 10

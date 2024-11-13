@@ -31,10 +31,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ava-labs/coreth/precompile/modules"
-	"github.com/ava-labs/coreth/precompile/precompileconfig"
-	"github.com/ava-labs/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/geeblock/coreth/precompile/modules"
+	"github.com/geeblock/coreth/precompile/precompileconfig"
+	"github.com/geeblock/coreth/utils"
 )
 
 // Avalanche ChainIDs
@@ -43,6 +43,8 @@ var (
 	AvalancheMainnetChainID = big.NewInt(43114)
 	// AvalancheFujiChainID ...
 	AvalancheFujiChainID = big.NewInt(43113)
+	// AvalancheCreteChainID ...
+	AvalancheCreteChainID = big.NewInt(45055)
 	// AvalancheLocalChainID ...
 	AvalancheLocalChainID = big.NewInt(43112)
 )

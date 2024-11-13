@@ -11,14 +11,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/leveldb"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/geeblock/geeblockgo/chains/atomic"
+	"github.com/geeblock/geeblockgo/database"
+	"github.com/geeblock/geeblockgo/database/leveldb"
+	"github.com/geeblock/geeblockgo/database/memdb"
+	"github.com/geeblock/geeblockgo/database/versiondb"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/utils/logging"
+	"github.com/geeblock/geeblockgo/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 )

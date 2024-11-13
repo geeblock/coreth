@@ -6,12 +6,12 @@ package warp
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/coreth/precompile/contract"
-	"github.com/ava-labs/coreth/predicate"
-	"github.com/ava-labs/coreth/vmerrs"
+	"github.com/geeblock/geeblockgo/utils/set"
+	"github.com/geeblock/geeblockgo/vms/platformvm/warp"
+	"github.com/geeblock/geeblockgo/vms/platformvm/warp/payload"
+	"github.com/geeblock/coreth/precompile/contract"
+	"github.com/geeblock/coreth/predicate"
+	"github.com/geeblock/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 )

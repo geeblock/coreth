@@ -6,14 +6,14 @@ package warp
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/coreth/warp/warptest"
+	"github.com/geeblock/geeblockgo/database/memdb"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/utils"
+	"github.com/geeblock/geeblockgo/utils/crypto/bls"
+	"github.com/geeblock/geeblockgo/utils/hashing"
+	avalancheWarp "github.com/geeblock/geeblockgo/vms/platformvm/warp"
+	"github.com/geeblock/geeblockgo/vms/platformvm/warp/payload"
+	"github.com/geeblock/coreth/warp/warptest"
 	"github.com/stretchr/testify/require"
 )
 

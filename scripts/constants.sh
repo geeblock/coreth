@@ -11,7 +11,7 @@ DEFAULT_PLUGIN_DIR="${HOME}/.avalanchego/plugins"
 DEFAULT_VM_ID="srEXiWaHuhNyGwPUi444Tu47ZEDwxTWrbQiuD7FmgSAQ6X7Dy"
 
 # Set binary location
-binary_path=${CORETH_BINARY_PATH:-"$GOPATH/src/github.com/ava-labs/avalanchego/build/plugins/evm"}
+binary_path=${CORETH_BINARY_PATH:-"$GOPATH/src/github.com/geeblock/geeblockgo/build/plugins/evm"}
 
 # Avalabs docker hub
 DOCKERHUB_REPO="avaplatform/coreth"

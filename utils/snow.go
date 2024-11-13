@@ -4,12 +4,12 @@
 package utils
 
 import (
-	"github.com/ava-labs/avalanchego/api/metrics"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/validators/validatorstest"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/geeblock/geeblockgo/api/metrics"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/snow"
+	"github.com/geeblock/geeblockgo/snow/validators/validatorstest"
+	"github.com/geeblock/geeblockgo/utils/crypto/bls"
+	"github.com/geeblock/geeblockgo/utils/logging"
 )
 
 func TestSnowContext() *snow.Context {

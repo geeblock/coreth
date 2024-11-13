@@ -5,11 +5,11 @@
 package precompileconfig
 
 import (
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/snowman/block"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp"
+	"github.com/geeblock/geeblockgo/chains/atomic"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/snow"
+	"github.com/geeblock/geeblockgo/snow/engine/snowman/block"
+	"github.com/geeblock/geeblockgo/vms/platformvm/warp"
 	"github.com/ethereum/go-ethereum/common"
 )
 

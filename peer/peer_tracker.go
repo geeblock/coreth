@@ -8,14 +8,14 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	utils_math "github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/geeblock/geeblockgo/ids"
+	utils_math "github.com/geeblock/geeblockgo/utils/math"
+	"github.com/geeblock/geeblockgo/utils/set"
+	"github.com/geeblock/geeblockgo/version"
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/ava-labs/coreth/metrics"
+	"github.com/geeblock/coreth/metrics"
 )
 
 const (

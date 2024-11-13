@@ -12,20 +12,20 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/params"
+	"github.com/geeblock/coreth/core/state"
+	"github.com/geeblock/coreth/params"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/crypto/secp256k1"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/set"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/geeblock/geeblockgo/chains/atomic"
+	"github.com/geeblock/geeblockgo/codec"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/snow"
+	"github.com/geeblock/geeblockgo/utils"
+	"github.com/geeblock/geeblockgo/utils/crypto/secp256k1"
+	"github.com/geeblock/geeblockgo/utils/hashing"
+	"github.com/geeblock/geeblockgo/utils/set"
+	"github.com/geeblock/geeblockgo/utils/wrappers"
+	"github.com/geeblock/geeblockgo/vms/components/verify"
+	"github.com/geeblock/geeblockgo/vms/secp256k1fx"
 )
 
 var (

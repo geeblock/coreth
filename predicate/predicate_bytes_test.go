@@ -7,8 +7,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/coreth/params"
+	"github.com/geeblock/geeblockgo/utils"
+	"github.com/geeblock/coreth/params"
 	"github.com/stretchr/testify/require"
 )
 

@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/crypto/bls"
-	avalancheWarp "github.com/ava-labs/avalanchego/vms/platformvm/warp"
-	"github.com/ava-labs/avalanchego/vms/platformvm/warp/payload"
-	"github.com/ava-labs/coreth/plugin/evm/message"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/utils/crypto/bls"
+	avalancheWarp "github.com/geeblock/geeblockgo/vms/platformvm/warp"
+	"github.com/geeblock/geeblockgo/vms/platformvm/warp/payload"
+	"github.com/geeblock/coreth/plugin/evm/message"
 )
 
 const (

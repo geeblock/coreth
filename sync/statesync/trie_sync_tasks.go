@@ -6,10 +6,10 @@ package statesync
 import (
 	"fmt"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/sync/syncutils"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/geeblock/coreth/core/rawdb"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/sync/syncutils"
+	"github.com/geeblock/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/log"

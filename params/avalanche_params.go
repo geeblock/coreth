@@ -6,7 +6,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/geeblock/geeblockgo/utils/units"
 )
 
 // Minimum Gas Price
@@ -16,7 +16,7 @@ const (
 	LaunchMinGasPrice        int64 = 470 * GWei
 	ApricotPhase1MinGasPrice int64 = 225 * GWei
 
-	AvalancheAtomicTxFee = units.MilliAvax
+	AvalancheAtomicTxFee = units.MilliGee
 
 	ApricotPhase1GasLimit uint64 = 8_000_000
 	CortinaGasLimit       uint64 = 15_000_000

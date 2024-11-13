@@ -10,12 +10,12 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/geeblock/geeblockgo/utils/math"
 
-	"github.com/ava-labs/coreth/constants"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/trie"
+	"github.com/geeblock/coreth/constants"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/params"
+	"github.com/geeblock/coreth/trie"
 )
 
 var (

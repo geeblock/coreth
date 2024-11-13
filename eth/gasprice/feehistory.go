@@ -33,8 +33,8 @@ import (
 	"math/big"
 	"slices"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/rpc"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

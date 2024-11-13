@@ -30,8 +30,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/coreth/metrics"
-	"github.com/ava-labs/coreth/utils"
+	"github.com/geeblock/coreth/metrics"
+	"github.com/geeblock/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

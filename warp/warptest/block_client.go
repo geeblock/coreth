@@ -8,11 +8,11 @@ import (
 	"context"
 	"slices"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman/snowmantest"
-	"github.com/ava-labs/avalanchego/snow/snowtest"
+	"github.com/geeblock/geeblockgo/database"
+	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geeblockgo/snow/consensus/snowman"
+	"github.com/geeblock/geeblockgo/snow/consensus/snowman/snowmantest"
+	"github.com/geeblock/geeblockgo/snow/snowtest"
 )
 
 // EmptyBlockClient returns an error if a block is requested

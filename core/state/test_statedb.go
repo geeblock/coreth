@@ -5,8 +5,8 @@ package state
 import (
 	"testing"
 
-	"github.com/ava-labs/coreth/core/rawdb"
-	"github.com/ava-labs/coreth/precompile/contract"
+	"github.com/geeblock/coreth/core/rawdb"
+	"github.com/geeblock/coreth/precompile/contract"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

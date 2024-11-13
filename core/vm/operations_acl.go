@@ -29,8 +29,8 @@ package vm
 import (
 	"errors"
 
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/vmerrs"
+	"github.com/geeblock/coreth/params"
+	"github.com/geeblock/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 )

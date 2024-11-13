@@ -33,12 +33,12 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/vmerrs"
+	"github.com/geeblock/coreth/core"
+	"github.com/geeblock/coreth/core/state"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/core/vm"
+	"github.com/geeblock/coreth/params"
+	"github.com/geeblock/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )
