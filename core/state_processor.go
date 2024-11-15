@@ -234,7 +234,7 @@ func ApplyPrecompileActivations(c *params.ChainConfig, parentTimestamp *uint64, 
 					printIntf = activatingConfig
 				}
 
-				log.Info("Log for more info", "parent timestamp", parentTimestamp)
+				log.Info("Log for more info", "parent timestamp", *parentTimestamp)
 				log.Info("Activating new precompile", "name", module.ConfigKey, "config", printIntf)
 				// Set the nonce of the precompile's address (as is done when a contract is created) to ensure
 				// that it is marked as non-empty and will not be cleaned up when the statedb is finalized.
