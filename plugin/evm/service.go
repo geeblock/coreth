@@ -10,16 +10,16 @@ import (
 	"math/big"
 	"net/http"
 
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/geeblockgo/api"
 	"github.com/geeblock/geeblockgo/ids"
 	"github.com/geeblock/geeblockgo/utils/crypto/secp256k1"
 	"github.com/geeblock/geeblockgo/utils/formatting"
 	"github.com/geeblock/geeblockgo/utils/json"
 	"github.com/geeblock/geeblockgo/utils/set"
-	"github.com/geeblock/coreth/params"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/log"
 )
 
 // test constants
@@ -74,7 +74,7 @@ type AvaxAPI struct{ vm *VM }
 func (service *AvaxAPI) parseAssetID(assetID string) (ids.ID, error) {
 	if assetID == "" {
 		return ids.ID{}, fmt.Errorf("assetID is required")
-	} else if assetID == "AVAX" {
+	} else if assetID == "GEE" {
 		return service.vm.ctx.AVAXAssetID, nil
 	} else {
 		return ids.FromString(assetID)

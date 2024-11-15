@@ -14,6 +14,8 @@ import (
 	"github.com/geeblock/coreth/params"
 	"github.com/holiman/uint256"
 
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/log"
 	"github.com/geeblock/geeblockgo/chains/atomic"
 	"github.com/geeblock/geeblockgo/ids"
 	"github.com/geeblock/geeblockgo/snow"
@@ -24,8 +26,6 @@ import (
 	"github.com/geeblock/geeblockgo/vms/components/avax"
 	"github.com/geeblock/geeblockgo/vms/components/verify"
 	"github.com/geeblock/geeblockgo/vms/secp256k1fx"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
 )
 
 var (
@@ -432,7 +432,7 @@ func (vm *VM) newImportTxWithUTXOs(
 func (utx *UnsignedImportTx) EVMStateTransfer(ctx *snow.Context, state *state.StateDB) error {
 	for _, to := range utx.Outs {
 		if to.AssetID == ctx.AVAXAssetID {
-			log.Debug("import_tx", "src", utx.SourceChain, "addr", to.Address, "amount", to.Amount, "assetID", "AVAX")
+			log.Debug("import_tx", "src", utx.SourceChain, "addr", to.Address, "amount", to.Amount, "assetID", "GEE")
 			// If the asset is AVAX, convert the input amount in nAVAX to gWei by
 			// multiplying by the x2c rate.
 			amount := new(uint256.Int).Mul(uint256.NewInt(to.Amount), x2cRate)

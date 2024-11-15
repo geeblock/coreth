@@ -177,7 +177,7 @@ func (c *client) ExportAVAX(
 	targetChain string,
 	options ...rpc.Option,
 ) (ids.ID, error) {
-	return c.Export(ctx, user, amount, to, targetChain, "AVAX", options...)
+	return c.Export(ctx, user, amount, to, targetChain, "GEE", options...)
 }
 
 // Export sends an asset from this chain to the P/C-Chain.

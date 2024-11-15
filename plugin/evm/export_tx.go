@@ -13,6 +13,8 @@ import (
 	"github.com/geeblock/coreth/params"
 	"github.com/holiman/uint256"
 
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/log"
 	"github.com/geeblock/geeblockgo/chains/atomic"
 	"github.com/geeblock/geeblockgo/ids"
 	"github.com/geeblock/geeblockgo/snow"
@@ -25,8 +27,6 @@ import (
 	"github.com/geeblock/geeblockgo/vms/components/avax"
 	"github.com/geeblock/geeblockgo/vms/components/verify"
 	"github.com/geeblock/geeblockgo/vms/secp256k1fx"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
 )
 
 var (
@@ -374,7 +374,7 @@ func (utx *UnsignedExportTx) EVMStateTransfer(ctx *snow.Context, state *state.St
 	addrs := map[[20]byte]uint64{}
 	for _, from := range utx.Ins {
 		if from.AssetID == ctx.AVAXAssetID {
-			log.Debug("export_tx", "dest", utx.DestinationChain, "addr", from.Address, "amount", from.Amount, "assetID", "AVAX")
+			log.Debug("export_tx", "dest", utx.DestinationChain, "addr", from.Address, "amount", from.Amount, "assetID", "GEE")
 			// We multiply the input amount by x2cRate to convert AVAX back to the appropriate
 			// denomination before export.
 			amount := new(uint256.Int).Mul(

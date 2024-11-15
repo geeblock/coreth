@@ -31,6 +31,9 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/log"
 	"github.com/geeblock/coreth/consensus"
 	"github.com/geeblock/coreth/core/state"
 	"github.com/geeblock/coreth/core/types"
@@ -38,9 +41,6 @@ import (
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/precompile/contract"
 	"github.com/geeblock/coreth/precompile/modules"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning
