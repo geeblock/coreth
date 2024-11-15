@@ -30,6 +30,8 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/geeblock/coreth/consensus"
 	"github.com/geeblock/coreth/consensus/dummy"
 	"github.com/geeblock/coreth/consensus/misc/eip4844"
@@ -39,8 +41,6 @@ import (
 	"github.com/geeblock/coreth/core/vm"
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/triedb"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/holiman/uint256"
 )
 

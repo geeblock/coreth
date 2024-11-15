@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/geeblock/geeblockgo/utils/timer/mockable"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/geeblock/coreth/consensus/dummy"
 	"github.com/geeblock/coreth/constants"
 	"github.com/geeblock/coreth/core"
@@ -34,7 +34,7 @@ import (
 	"github.com/geeblock/coreth/node"
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/rpc"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/geeblock/geeblockgo/utils/timer/mockable"
 )
 
 var _ eth.PushGossiper = (*fakePushGossiper)(nil)

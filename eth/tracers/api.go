@@ -37,6 +37,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/geeblock/coreth/consensus"
 	"github.com/geeblock/coreth/core"
 	"github.com/geeblock/coreth/core/state"
@@ -46,11 +51,6 @@ import (
 	"github.com/geeblock/coreth/internal/ethapi"
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/rpc"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
 )
 
 const (

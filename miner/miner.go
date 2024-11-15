@@ -28,15 +28,15 @@
 package miner
 
 import (
-	"github.com/geeblock/geeblockgo/utils/timer/mockable"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/event"
 	"github.com/geeblock/coreth/consensus"
 	"github.com/geeblock/coreth/core"
 	"github.com/geeblock/coreth/core/txpool"
 	"github.com/geeblock/coreth/core/types"
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/precompile/precompileconfig"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
+	"github.com/geeblock/geeblockgo/utils/timer/mockable"
 )
 
 // Backend wraps all methods required for mining.

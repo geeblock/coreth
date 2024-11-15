@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/geeblock/geeblockgo/upgrade"
 	"github.com/geeblock/coreth/utils"
+	"github.com/geeblock/geeblockgo/upgrade"
 )
 
 type NetworkUpgrades struct {
@@ -222,17 +222,17 @@ type AvalancheRules struct {
 
 func (n *NetworkUpgrades) GetAvalancheRules(timestamp uint64) AvalancheRules {
 	return AvalancheRules{
-		IsApricotPhase1:     n.IsApricotPhase1(timestamp),
-		IsApricotPhase2:     n.IsApricotPhase2(timestamp),
-		IsApricotPhase3:     n.IsApricotPhase3(timestamp),
-		IsApricotPhase4:     n.IsApricotPhase4(timestamp),
-		IsApricotPhase5:     n.IsApricotPhase5(timestamp),
-		IsApricotPhasePre6:  n.IsApricotPhasePre6(timestamp),
-		IsApricotPhase6:     n.IsApricotPhase6(timestamp),
-		IsApricotPhasePost6: n.IsApricotPhasePost6(timestamp),
-		IsBanff:             n.IsBanff(timestamp),
-		IsCortina:           n.IsCortina(timestamp),
-		IsDurango:           n.IsDurango(timestamp),
-		IsEtna:              n.IsEtna(timestamp),
+		IsApricotPhase1:     true,
+		IsApricotPhase2:     true,
+		IsApricotPhase3:     true,
+		IsApricotPhase4:     true,
+		IsApricotPhase5:     true,
+		IsApricotPhasePre6:  true,
+		IsApricotPhase6:     true,
+		IsApricotPhasePost6: true,
+		IsBanff:             true,
+		IsCortina:           true,
+		IsDurango:           true,
+		IsEtna:              true,
 	}
 }

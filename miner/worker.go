@@ -36,8 +36,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/geeblock/geeblockgo/utils/timer/mockable"
-	"github.com/geeblock/geeblockgo/utils/units"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/event"
+	"github.com/ethereum/go-ethereum/log"
 	"github.com/geeblock/coreth/consensus"
 	"github.com/geeblock/coreth/consensus/dummy"
 	"github.com/geeblock/coreth/consensus/misc/eip4844"
@@ -49,9 +50,8 @@ import (
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/precompile/precompileconfig"
 	"github.com/geeblock/coreth/predicate"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/geeblock/geeblockgo/utils/timer/mockable"
+	"github.com/geeblock/geeblockgo/utils/units"
 	"github.com/holiman/uint256"
 )
 
