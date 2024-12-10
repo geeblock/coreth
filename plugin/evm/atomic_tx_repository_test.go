@@ -7,21 +7,21 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/geeblock/geeblockgo/chains/atomic"
-	"github.com/geeblock/geeblockgo/database"
-	"github.com/geeblock/geeblockgo/database/prefixdb"
-	"github.com/geeblock/geeblockgo/database/versiondb"
-	"github.com/geeblock/geeblockgo/utils"
+	"github.com/geeblock/geego/chains/atomic"
+	"github.com/geeblock/geego/database"
+	"github.com/geeblock/geego/database/prefixdb"
+	"github.com/geeblock/geego/database/versiondb"
+	"github.com/geeblock/geego/utils"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/geeblock/geeblockgo/codec"
-	"github.com/geeblock/geeblockgo/utils/set"
-	"github.com/geeblock/geeblockgo/utils/wrappers"
+	"github.com/geeblock/geego/codec"
+	"github.com/geeblock/geego/utils/set"
+	"github.com/geeblock/geego/utils/wrappers"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/geeblock/geeblockgo/database/memdb"
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/database/memdb"
+	"github.com/geeblock/geego/ids"
 )
 
 // addTxs writes [txsPerHeight] txs for heights ranging in [fromHeight, toHeight) directly to [acceptedAtomicTxDB],

@@ -7,10 +7,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/crypto/bls"
-	avalancheWarp "github.com/geeblock/geeblockgo/vms/platformvm/warp"
-	"github.com/geeblock/geeblockgo/vms/platformvm/warp/payload"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/crypto/bls"
+	avalancheWarp "github.com/geeblock/geego/vms/platformvm/warp"
+	"github.com/geeblock/geego/vms/platformvm/warp/payload"
 	"github.com/geeblock/coreth/warp/aggregator"
 )
 

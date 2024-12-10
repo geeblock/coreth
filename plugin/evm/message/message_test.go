@@ -7,8 +7,8 @@ import (
 	"encoding/base64"
 	"testing"
 
-	"github.com/geeblock/geeblockgo/utils"
-	"github.com/geeblock/geeblockgo/utils/units"
+	"github.com/geeblock/geego/utils"
+	"github.com/geeblock/geego/utils/units"
 
 	"github.com/stretchr/testify/assert"
 )

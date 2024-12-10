@@ -14,12 +14,12 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/geeblock/coreth/params"
-	"github.com/geeblock/geeblockgo/api"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/crypto/secp256k1"
-	"github.com/geeblock/geeblockgo/utils/formatting"
-	"github.com/geeblock/geeblockgo/utils/json"
-	"github.com/geeblock/geeblockgo/utils/set"
+	"github.com/geeblock/geego/api"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/crypto/secp256k1"
+	"github.com/geeblock/geego/utils/formatting"
+	"github.com/geeblock/geego/utils/json"
+	"github.com/geeblock/geego/utils/set"
 )
 
 // test constants

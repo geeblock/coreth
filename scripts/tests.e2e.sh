@@ -37,7 +37,7 @@ if [[ -d "${AVALANCHEGO_CLONE_PATH}" ]]; then
   git fetch
 else
   echo "creating new clone"
-  git clone https://github.com/geeblock/geeblockgo.git "${AVALANCHEGO_CLONE_PATH}"
+  git clone https://github.com/geeblock/geego.git "${AVALANCHEGO_CLONE_PATH}"
   cd "${AVALANCHEGO_CLONE_PATH}"
 fi
 # Branch will be reset to $AVALANCHE_VERSION if it already exists

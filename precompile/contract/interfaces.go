@@ -7,7 +7,7 @@ package contract
 import (
 	"math/big"
 
-	"github.com/geeblock/geeblockgo/snow"
+	"github.com/geeblock/geego/snow"
 	"github.com/geeblock/coreth/precompile/precompileconfig"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"

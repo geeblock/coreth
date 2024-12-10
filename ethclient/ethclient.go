@@ -40,7 +40,7 @@ import (
 	"github.com/geeblock/coreth/core/types"
 	"github.com/geeblock/coreth/interfaces"
 	"github.com/geeblock/coreth/rpc"
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/ids"
 
 	// Force-load precompiles to trigger registration
 	_ "github.com/geeblock/coreth/precompile/registry"

@@ -34,7 +34,7 @@ import (
 	"github.com/geeblock/coreth/node"
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/rpc"
-	"github.com/geeblock/geeblockgo/utils/timer/mockable"
+	"github.com/geeblock/geego/utils/timer/mockable"
 )
 
 var _ eth.PushGossiper = (*fakePushGossiper)(nil)

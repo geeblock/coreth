@@ -6,7 +6,7 @@ package peer
 import (
 	"testing"
 
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/ids"
 	"github.com/stretchr/testify/require"
 )
 

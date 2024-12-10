@@ -11,14 +11,14 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/geeblock/geeblockgo/codec"
-	"github.com/geeblock/geeblockgo/database"
-	"github.com/geeblock/geeblockgo/database/prefixdb"
-	"github.com/geeblock/geeblockgo/database/versiondb"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils"
-	"github.com/geeblock/geeblockgo/utils/units"
-	"github.com/geeblock/geeblockgo/utils/wrappers"
+	"github.com/geeblock/geego/codec"
+	"github.com/geeblock/geego/database"
+	"github.com/geeblock/geego/database/prefixdb"
+	"github.com/geeblock/geego/database/versiondb"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils"
+	"github.com/geeblock/geego/utils/units"
+	"github.com/geeblock/geego/utils/wrappers"
 )
 
 const (

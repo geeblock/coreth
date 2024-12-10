@@ -7,7 +7,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/geeblock/geeblockgo/utils"
+	"github.com/geeblock/geego/utils"
 	"github.com/geeblock/coreth/params"
 	"github.com/stretchr/testify/require"
 )

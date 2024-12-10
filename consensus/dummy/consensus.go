@@ -17,7 +17,7 @@ import (
 	"github.com/geeblock/coreth/core/types"
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/trie"
-	"github.com/geeblock/geeblockgo/utils/timer/mockable"
+	"github.com/geeblock/geego/utils/timer/mockable"
 )
 
 var (

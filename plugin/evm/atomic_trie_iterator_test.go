@@ -6,11 +6,11 @@ package evm
 import (
 	"testing"
 
-	"github.com/geeblock/geeblockgo/chains/atomic"
-	"github.com/geeblock/geeblockgo/database/memdb"
-	"github.com/geeblock/geeblockgo/database/versiondb"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils"
+	"github.com/geeblock/geego/chains/atomic"
+	"github.com/geeblock/geego/database/memdb"
+	"github.com/geeblock/geego/database/versiondb"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

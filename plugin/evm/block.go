@@ -21,9 +21,9 @@ import (
 	"github.com/geeblock/coreth/precompile/precompileconfig"
 	"github.com/geeblock/coreth/predicate"
 
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/snow/consensus/snowman"
-	"github.com/geeblock/geeblockgo/snow/engine/snowman/block"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/snow/consensus/snowman"
+	"github.com/geeblock/geego/snow/engine/snowman/block"
 )
 
 var (

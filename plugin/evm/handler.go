@@ -4,7 +4,7 @@
 package evm
 
 import (
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/ids"
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/rlp"

@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/geeblock/geeblockgo/database"
-	"github.com/geeblock/geeblockgo/snow/engine/snowman/block"
+	"github.com/geeblock/geego/database"
+	"github.com/geeblock/geego/snow/engine/snowman/block"
 
 	"github.com/geeblock/coreth/core"
 	"github.com/geeblock/coreth/plugin/evm/message"

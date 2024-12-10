@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/geeblock/geeblockgo/upgrade"
+	"github.com/geeblock/geego/upgrade"
 	"github.com/geeblock/coreth/consensus/dummy"
 	"github.com/geeblock/coreth/core/rawdb"
 	"github.com/geeblock/coreth/core/state"

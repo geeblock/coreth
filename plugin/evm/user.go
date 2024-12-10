@@ -7,9 +7,9 @@ import (
 	"errors"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/geeblock/geeblockgo/database/encdb"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/crypto/secp256k1"
+	"github.com/geeblock/geego/database/encdb"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/crypto/secp256k1"
 )
 
 // Key in the database whose corresponding value is the list of

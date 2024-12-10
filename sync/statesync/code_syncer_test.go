@@ -8,7 +8,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/geeblock/geeblockgo/utils"
+	"github.com/geeblock/geego/utils"
 	"github.com/geeblock/coreth/core/rawdb"
 	"github.com/geeblock/coreth/plugin/evm/message"
 	statesyncclient "github.com/geeblock/coreth/sync/client"

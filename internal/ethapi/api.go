@@ -55,7 +55,7 @@ import (
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/rpc"
 	"github.com/geeblock/coreth/trie"
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/ids"
 	"github.com/holiman/uint256"
 	"github.com/tyler-smith/go-bip39"
 )

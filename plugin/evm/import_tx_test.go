@@ -11,14 +11,14 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
 
-	"github.com/geeblock/geeblockgo/chains/atomic"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils"
-	"github.com/geeblock/geeblockgo/utils/constants"
-	"github.com/geeblock/geeblockgo/utils/crypto/secp256k1"
-	"github.com/geeblock/geeblockgo/utils/set"
-	"github.com/geeblock/geeblockgo/vms/components/avax"
-	"github.com/geeblock/geeblockgo/vms/secp256k1fx"
+	"github.com/geeblock/geego/chains/atomic"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils"
+	"github.com/geeblock/geego/utils/constants"
+	"github.com/geeblock/geego/utils/crypto/secp256k1"
+	"github.com/geeblock/geego/utils/set"
+	"github.com/geeblock/geego/vms/components/avax"
+	"github.com/geeblock/geego/vms/secp256k1fx"
 )
 
 // createImportTxOptions adds a UTXO to shared memory and generates a list of import transactions sending this UTXO

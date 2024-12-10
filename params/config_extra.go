@@ -11,8 +11,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/geeblock/coreth/utils"
-	"github.com/geeblock/geeblockgo/snow"
-	"github.com/geeblock/geeblockgo/upgrade"
+	"github.com/geeblock/geego/snow"
+	"github.com/geeblock/geego/upgrade"
 )
 
 const (

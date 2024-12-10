@@ -13,7 +13,7 @@ import (
 	big "math/big"
 	reflect "reflect"
 
-	snow "github.com/geeblock/geeblockgo/snow"
+	snow "github.com/geeblock/geego/snow"
 	precompileconfig "github.com/geeblock/coreth/precompile/precompileconfig"
 	common "github.com/ethereum/go-ethereum/common"
 	uint256 "github.com/holiman/uint256"

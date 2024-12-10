@@ -7,8 +7,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/geeblock/geeblockgo/snow/engine/snowman/block"
-	"github.com/geeblock/geeblockgo/utils/set"
+	"github.com/geeblock/geego/snow/engine/snowman/block"
+	"github.com/geeblock/geego/utils/set"
 	"github.com/geeblock/coreth/core/types"
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/precompile/precompileconfig"

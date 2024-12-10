@@ -7,11 +7,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/geeblock/geeblockgo/snow/engine/snowman/block"
+	"github.com/geeblock/geego/snow/engine/snowman/block"
 )
 
 var _ block.StateSummary = &SyncSummary{}

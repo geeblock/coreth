@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/geeblock/geeblockgo/cache"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/network/p2p/gossip"
-	"github.com/geeblock/geeblockgo/snow"
+	"github.com/geeblock/geego/cache"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/network/p2p/gossip"
+	"github.com/geeblock/geego/snow"
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/ethereum/go-ethereum/log"

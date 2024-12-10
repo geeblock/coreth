@@ -6,13 +6,13 @@ package warp
 import (
 	"testing"
 
-	"github.com/geeblock/geeblockgo/database/memdb"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils"
-	"github.com/geeblock/geeblockgo/utils/crypto/bls"
-	"github.com/geeblock/geeblockgo/utils/hashing"
-	avalancheWarp "github.com/geeblock/geeblockgo/vms/platformvm/warp"
-	"github.com/geeblock/geeblockgo/vms/platformvm/warp/payload"
+	"github.com/geeblock/geego/database/memdb"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils"
+	"github.com/geeblock/geego/utils/crypto/bls"
+	"github.com/geeblock/geego/utils/hashing"
+	avalancheWarp "github.com/geeblock/geego/vms/platformvm/warp"
+	"github.com/geeblock/geego/vms/platformvm/warp/payload"
 	"github.com/geeblock/coreth/warp/warptest"
 	"github.com/stretchr/testify/require"
 )

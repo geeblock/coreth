@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/set"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/set"
 	"github.com/geeblock/coreth/core/rawdb"
 	"github.com/geeblock/coreth/plugin/evm/message"
 	statesyncclient "github.com/geeblock/coreth/sync/client"

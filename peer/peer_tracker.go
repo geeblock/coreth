@@ -8,10 +8,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/geeblock/geeblockgo/ids"
-	utils_math "github.com/geeblock/geeblockgo/utils/math"
-	"github.com/geeblock/geeblockgo/utils/set"
-	"github.com/geeblock/geeblockgo/version"
+	"github.com/geeblock/geego/ids"
+	utils_math "github.com/geeblock/geego/utils/math"
+	"github.com/geeblock/geego/utils/set"
+	"github.com/geeblock/geego/version"
 
 	"github.com/ethereum/go-ethereum/log"
 

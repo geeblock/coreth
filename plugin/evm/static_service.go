@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 
 	"github.com/geeblock/coreth/core"
-	"github.com/geeblock/geeblockgo/utils/formatting"
+	"github.com/geeblock/geego/utils/formatting"
 )
 
 // StaticService defines the static API services exposed by the evm

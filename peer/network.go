@@ -14,14 +14,14 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/geeblock/geeblockgo/codec"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/network/p2p"
-	"github.com/geeblock/geeblockgo/snow/engine/common"
-	"github.com/geeblock/geeblockgo/snow/validators"
-	"github.com/geeblock/geeblockgo/utils"
-	"github.com/geeblock/geeblockgo/utils/set"
-	"github.com/geeblock/geeblockgo/version"
+	"github.com/geeblock/geego/codec"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/network/p2p"
+	"github.com/geeblock/geego/snow/engine/common"
+	"github.com/geeblock/geego/snow/validators"
+	"github.com/geeblock/geego/utils"
+	"github.com/geeblock/geego/utils/set"
+	"github.com/geeblock/geego/version"
 
 	"github.com/geeblock/coreth/peer/stats"
 	"github.com/geeblock/coreth/plugin/evm/message"

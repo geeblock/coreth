@@ -8,8 +8,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/crypto/bls"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/crypto/bls"
 	"github.com/stretchr/testify/require"
 )
 

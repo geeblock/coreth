@@ -8,9 +8,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/crypto/secp256k1"
-	"github.com/geeblock/geeblockgo/vms/components/chain"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/crypto/secp256k1"
+	"github.com/geeblock/geego/vms/components/chain"
 
 	"github.com/stretchr/testify/assert"
 )

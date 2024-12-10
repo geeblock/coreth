@@ -8,9 +8,9 @@ import (
 	context "context"
 	reflect "reflect"
 
-	ids "github.com/geeblock/geeblockgo/ids"
-	bls "github.com/geeblock/geeblockgo/utils/crypto/bls"
-	warp "github.com/geeblock/geeblockgo/vms/platformvm/warp"
+	ids "github.com/geeblock/geego/ids"
+	bls "github.com/geeblock/geego/utils/crypto/bls"
+	warp "github.com/geeblock/geego/vms/platformvm/warp"
 	gomock "go.uber.org/mock/gomock"
 )
 

@@ -7,7 +7,7 @@ import (
 	"errors"
 
 	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/geeblock/geeblockgo/database"
+	"github.com/geeblock/geego/database"
 )
 
 var (

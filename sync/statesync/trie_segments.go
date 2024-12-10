@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/geeblock/geeblockgo/utils/wrappers"
+	"github.com/geeblock/geego/utils/wrappers"
 	"github.com/geeblock/coreth/core/rawdb"
 	"github.com/geeblock/coreth/plugin/evm/message"
 	syncclient "github.com/geeblock/coreth/sync/client"

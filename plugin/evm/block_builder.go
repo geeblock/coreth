@@ -10,12 +10,12 @@ import (
 	"github.com/geeblock/coreth/core"
 	"github.com/geeblock/coreth/core/txpool"
 	"github.com/geeblock/coreth/params"
-	"github.com/geeblock/geeblockgo/utils/timer"
+	"github.com/geeblock/geego/utils/timer"
 	"github.com/holiman/uint256"
 
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/geeblock/geeblockgo/snow"
-	commonEng "github.com/geeblock/geeblockgo/snow/engine/common"
+	"github.com/geeblock/geego/snow"
+	commonEng "github.com/geeblock/geego/snow/engine/common"
 )
 
 const (

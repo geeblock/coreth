@@ -6,8 +6,8 @@ package evm
 import (
 	"testing"
 
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/snow"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/snow"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/stretchr/testify/require"
 )

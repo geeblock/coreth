@@ -6,7 +6,7 @@ package evm
 import (
 	"container/heap"
 
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/ids"
 )
 
 // txEntry is used to track the [gasPrice] transactions pay to be included in

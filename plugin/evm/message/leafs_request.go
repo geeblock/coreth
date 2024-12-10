@@ -7,7 +7,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

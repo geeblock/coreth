@@ -58,7 +58,7 @@ import (
 	"github.com/geeblock/coreth/node"
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/rpc"
-	"github.com/geeblock/geeblockgo/utils/timer/mockable"
+	"github.com/geeblock/geego/utils/timer/mockable"
 )
 
 // Config contains the configuration options of the ETH protocol.

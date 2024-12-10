@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/set"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/set"
 
-	commonEng "github.com/geeblock/geeblockgo/snow/engine/common"
+	commonEng "github.com/geeblock/geego/snow/engine/common"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"

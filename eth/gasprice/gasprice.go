@@ -41,7 +41,7 @@ import (
 	"github.com/geeblock/coreth/core/types"
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/rpc"
-	"github.com/geeblock/geeblockgo/utils/timer/mockable"
+	"github.com/geeblock/geego/utils/timer/mockable"
 	"golang.org/x/exp/slices"
 )
 

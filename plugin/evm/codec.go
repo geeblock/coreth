@@ -6,10 +6,10 @@ package evm
 import (
 	"fmt"
 
-	"github.com/geeblock/geeblockgo/codec"
-	"github.com/geeblock/geeblockgo/codec/linearcodec"
-	"github.com/geeblock/geeblockgo/utils/wrappers"
-	"github.com/geeblock/geeblockgo/vms/secp256k1fx"
+	"github.com/geeblock/geego/codec"
+	"github.com/geeblock/geego/codec/linearcodec"
+	"github.com/geeblock/geego/utils/wrappers"
+	"github.com/geeblock/geego/vms/secp256k1fx"
 )
 
 // Codec does serialization and deserialization

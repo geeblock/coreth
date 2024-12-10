@@ -4,8 +4,8 @@
 package evm
 
 import (
-	"github.com/geeblock/geeblockgo/chains/atomic"
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/chains/atomic"
+	"github.com/geeblock/geego/ids"
 	"github.com/geeblock/coreth/precompile/precompileconfig"
 )
 

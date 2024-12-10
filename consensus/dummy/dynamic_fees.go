@@ -12,7 +12,7 @@ import (
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/geeblock/coreth/core/types"
 	"github.com/geeblock/coreth/params"
-	"github.com/geeblock/geeblockgo/utils/wrappers"
+	"github.com/geeblock/geego/utils/wrappers"
 )
 
 var (

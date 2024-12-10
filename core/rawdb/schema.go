@@ -34,7 +34,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/geeblock/coreth/metrics"
-	"github.com/geeblock/geeblockgo/utils/wrappers"
+	"github.com/geeblock/geego/utils/wrappers"
 )
 
 // The fields below define the low level database schema prefixing.

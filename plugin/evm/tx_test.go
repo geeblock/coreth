@@ -15,9 +15,9 @@ import (
 
 	"github.com/geeblock/coreth/params"
 
-	"github.com/geeblock/geeblockgo/chains/atomic"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/snow"
+	"github.com/geeblock/geego/chains/atomic"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/snow"
 )
 
 func TestCalculateDynamicFee(t *testing.T) {

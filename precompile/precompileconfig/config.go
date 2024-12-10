@@ -5,11 +5,11 @@
 package precompileconfig
 
 import (
-	"github.com/geeblock/geeblockgo/chains/atomic"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/snow"
-	"github.com/geeblock/geeblockgo/snow/engine/snowman/block"
-	"github.com/geeblock/geeblockgo/vms/platformvm/warp"
+	"github.com/geeblock/geego/chains/atomic"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/snow"
+	"github.com/geeblock/geego/snow/engine/snowman/block"
+	"github.com/geeblock/geego/vms/platformvm/warp"
 	"github.com/ethereum/go-ethereum/common"
 )
 

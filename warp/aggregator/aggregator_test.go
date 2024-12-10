@@ -12,9 +12,9 @@ import (
 
 	"go.uber.org/mock/gomock"
 
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/crypto/bls"
-	avalancheWarp "github.com/geeblock/geeblockgo/vms/platformvm/warp"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/crypto/bls"
+	avalancheWarp "github.com/geeblock/geego/vms/platformvm/warp"
 )
 
 func newValidator(t testing.TB, weight uint64) (*bls.SecretKey, *avalancheWarp.Validator) {

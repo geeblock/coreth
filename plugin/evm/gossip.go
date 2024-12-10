@@ -14,11 +14,11 @@ import (
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/network/p2p"
-	"github.com/geeblock/geeblockgo/network/p2p/gossip"
-	"github.com/geeblock/geeblockgo/snow/engine/common"
-	"github.com/geeblock/geeblockgo/utils/logging"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/network/p2p"
+	"github.com/geeblock/geego/network/p2p/gossip"
+	"github.com/geeblock/geego/snow/engine/common"
+	"github.com/geeblock/geego/utils/logging"
 
 	"github.com/geeblock/coreth/core"
 	"github.com/geeblock/coreth/core/txpool"

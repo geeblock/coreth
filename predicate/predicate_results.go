@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/geeblock/geeblockgo/codec"
-	"github.com/geeblock/geeblockgo/codec/linearcodec"
-	"github.com/geeblock/geeblockgo/utils/units"
-	"github.com/geeblock/geeblockgo/utils/wrappers"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/geeblock/geego/codec"
+	"github.com/geeblock/geego/codec/linearcodec"
+	"github.com/geeblock/geego/utils/units"
+	"github.com/geeblock/geego/utils/wrappers"
 )
 
 const (

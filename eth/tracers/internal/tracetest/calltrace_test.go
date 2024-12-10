@@ -34,8 +34,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/geeblock/geeblockgo/upgrade"
-	"github.com/geeblock/geeblockgo/utils/constants"
+	"github.com/geeblock/geego/upgrade"
+	"github.com/geeblock/geego/utils/constants"
 	"github.com/geeblock/coreth/core"
 	"github.com/geeblock/coreth/core/rawdb"
 	"github.com/geeblock/coreth/core/types"

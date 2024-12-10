@@ -11,13 +11,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/ids"
 
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/sync/client/stats"
 
-	"github.com/geeblock/geeblockgo/codec"
-	"github.com/geeblock/geeblockgo/version"
+	"github.com/geeblock/geego/codec"
+	"github.com/geeblock/geego/version"
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"

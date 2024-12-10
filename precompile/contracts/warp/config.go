@@ -8,14 +8,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/geeblock/geeblockgo/vms/platformvm/warp"
-	"github.com/geeblock/geeblockgo/vms/platformvm/warp/payload"
-	"github.com/geeblock/coreth/precompile/precompileconfig"
-	"github.com/geeblock/coreth/predicate"
-	warpValidators "github.com/geeblock/coreth/warp/validators"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/geeblock/coreth/precompile/precompileconfig"
+	"github.com/geeblock/coreth/predicate"
+	warpValidators "github.com/geeblock/coreth/warp/validators"
+	"github.com/geeblock/geego/vms/platformvm/warp"
+	"github.com/geeblock/geego/vms/platformvm/warp/payload"
 )
 
 const (

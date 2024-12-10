@@ -13,7 +13,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/ids"
 
 	"github.com/geeblock/coreth/consensus/dummy"
 	"github.com/geeblock/coreth/core"

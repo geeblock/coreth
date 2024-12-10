@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/geeblock/geeblockgo/codec"
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/codec"
+	"github.com/geeblock/geego/ids"
 )
 
 // Request represents a Network request type

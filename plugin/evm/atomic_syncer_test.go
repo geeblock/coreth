@@ -12,9 +12,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/geeblock/geeblockgo/database"
-	"github.com/geeblock/geeblockgo/database/memdb"
-	"github.com/geeblock/geeblockgo/database/versiondb"
+	"github.com/geeblock/geego/database"
+	"github.com/geeblock/geego/database/memdb"
+	"github.com/geeblock/geego/database/versiondb"
 
 	"github.com/geeblock/coreth/core/rawdb"
 	"github.com/geeblock/coreth/plugin/evm/message"

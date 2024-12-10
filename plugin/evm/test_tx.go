@@ -7,15 +7,15 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/geeblock/geeblockgo/utils"
+	"github.com/geeblock/geego/utils"
 
-	"github.com/geeblock/geeblockgo/chains/atomic"
-	"github.com/geeblock/geeblockgo/codec"
-	"github.com/geeblock/geeblockgo/codec/linearcodec"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/snow"
-	"github.com/geeblock/geeblockgo/utils/set"
-	"github.com/geeblock/geeblockgo/utils/wrappers"
+	"github.com/geeblock/geego/chains/atomic"
+	"github.com/geeblock/geego/codec"
+	"github.com/geeblock/geego/codec/linearcodec"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/snow"
+	"github.com/geeblock/geego/utils/set"
+	"github.com/geeblock/geego/utils/wrappers"
 	"github.com/geeblock/coreth/core/state"
 	"github.com/geeblock/coreth/params"
 )

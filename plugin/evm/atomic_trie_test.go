@@ -11,14 +11,14 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/geeblock/geeblockgo/chains/atomic"
-	"github.com/geeblock/geeblockgo/database"
-	"github.com/geeblock/geeblockgo/database/leveldb"
-	"github.com/geeblock/geeblockgo/database/memdb"
-	"github.com/geeblock/geeblockgo/database/versiondb"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/logging"
-	"github.com/geeblock/geeblockgo/utils/wrappers"
+	"github.com/geeblock/geego/chains/atomic"
+	"github.com/geeblock/geego/database"
+	"github.com/geeblock/geego/database/leveldb"
+	"github.com/geeblock/geego/database/memdb"
+	"github.com/geeblock/geego/database/versiondb"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/logging"
+	"github.com/geeblock/geego/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 )

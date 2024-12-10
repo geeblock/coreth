@@ -9,8 +9,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/geeblock/geeblockgo/database/versiondb"
-	"github.com/geeblock/geeblockgo/utils/wrappers"
+	"github.com/geeblock/geego/database/versiondb"
+	"github.com/geeblock/geego/utils/wrappers"
 
 	"github.com/ethereum/go-ethereum/common"
 

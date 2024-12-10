@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/geeblock/geeblockgo/utils/logging"
-	"github.com/geeblock/geeblockgo/utils/ulimit"
-	"github.com/geeblock/geeblockgo/vms/rpcchainvm"
+	"github.com/geeblock/geego/utils/logging"
+	"github.com/geeblock/geego/utils/ulimit"
+	"github.com/geeblock/geego/vms/rpcchainvm"
 
 	"github.com/geeblock/coreth/plugin/evm"
 )

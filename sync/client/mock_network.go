@@ -7,10 +7,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/ids"
 	"github.com/geeblock/coreth/peer"
 
-	"github.com/geeblock/geeblockgo/version"
+	"github.com/geeblock/geego/version"
 )
 
 var _ peer.NetworkClient = &mockNetwork{}

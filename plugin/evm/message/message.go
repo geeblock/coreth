@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/geeblock/geeblockgo/codec"
+	"github.com/geeblock/geego/codec"
 
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/units"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/units"
 )
 
 const (

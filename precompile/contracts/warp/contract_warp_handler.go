@@ -6,14 +6,14 @@ package warp
 import (
 	"fmt"
 
-	"github.com/geeblock/geeblockgo/utils/set"
-	"github.com/geeblock/geeblockgo/vms/platformvm/warp"
-	"github.com/geeblock/geeblockgo/vms/platformvm/warp/payload"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/geeblock/coreth/precompile/contract"
 	"github.com/geeblock/coreth/predicate"
 	"github.com/geeblock/coreth/vmerrs"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/geeblock/geego/utils/set"
+	"github.com/geeblock/geego/vms/platformvm/warp"
+	"github.com/geeblock/geego/vms/platformvm/warp/payload"
 )
 
 var (

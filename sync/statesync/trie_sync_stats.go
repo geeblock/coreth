@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	utils_math "github.com/geeblock/geeblockgo/utils/math"
-	"github.com/geeblock/geeblockgo/utils/timer"
+	utils_math "github.com/geeblock/geego/utils/math"
+	"github.com/geeblock/geego/utils/timer"
 	"github.com/geeblock/coreth/metrics"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"

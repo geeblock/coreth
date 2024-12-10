@@ -4,8 +4,8 @@
 package evm
 
 import (
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/hashing"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/hashing"
 )
 
 type Metadata struct {

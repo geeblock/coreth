@@ -16,16 +16,16 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/geeblock/geeblockgo/chains/atomic"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/snow"
-	"github.com/geeblock/geeblockgo/utils"
-	"github.com/geeblock/geeblockgo/utils/crypto/secp256k1"
-	"github.com/geeblock/geeblockgo/utils/math"
-	"github.com/geeblock/geeblockgo/utils/set"
-	"github.com/geeblock/geeblockgo/vms/components/avax"
-	"github.com/geeblock/geeblockgo/vms/components/verify"
-	"github.com/geeblock/geeblockgo/vms/secp256k1fx"
+	"github.com/geeblock/geego/chains/atomic"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/snow"
+	"github.com/geeblock/geego/utils"
+	"github.com/geeblock/geego/utils/crypto/secp256k1"
+	"github.com/geeblock/geego/utils/math"
+	"github.com/geeblock/geego/utils/set"
+	"github.com/geeblock/geego/vms/components/avax"
+	"github.com/geeblock/geego/vms/components/verify"
+	"github.com/geeblock/geego/vms/secp256k1fx"
 )
 
 var (

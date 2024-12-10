@@ -4,12 +4,12 @@
 package utils
 
 import (
-	"github.com/geeblock/geeblockgo/api/metrics"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/snow"
-	"github.com/geeblock/geeblockgo/snow/validators/validatorstest"
-	"github.com/geeblock/geeblockgo/utils/crypto/bls"
-	"github.com/geeblock/geeblockgo/utils/logging"
+	"github.com/geeblock/geego/api/metrics"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/snow"
+	"github.com/geeblock/geego/snow/validators/validatorstest"
+	"github.com/geeblock/geego/utils/crypto/bls"
+	"github.com/geeblock/geego/utils/logging"
 )
 
 func TestSnowContext() *snow.Context {

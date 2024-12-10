@@ -6,9 +6,9 @@ package evm
 import (
 	"fmt"
 
-	"github.com/geeblock/geeblockgo/chains/atomic"
-	"github.com/geeblock/geeblockgo/database"
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/chains/atomic"
+	"github.com/geeblock/geego/database"
+	"github.com/geeblock/geego/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

@@ -40,7 +40,7 @@ import (
 	"github.com/geeblock/coreth/precompile/precompileconfig"
 	"github.com/geeblock/coreth/predicate"
 	"github.com/geeblock/coreth/vmerrs"
-	"github.com/geeblock/geeblockgo/snow"
+	"github.com/geeblock/geego/snow"
 	"github.com/holiman/uint256"
 )
 

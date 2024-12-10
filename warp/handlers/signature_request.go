@@ -7,9 +7,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/geeblock/geeblockgo/codec"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/crypto/bls"
+	"github.com/geeblock/geego/codec"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/crypto/bls"
 	"github.com/geeblock/coreth/plugin/evm/message"
 	"github.com/geeblock/coreth/warp"
 	"github.com/ethereum/go-ethereum/log"

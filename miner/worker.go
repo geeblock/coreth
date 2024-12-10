@@ -50,8 +50,8 @@ import (
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/precompile/precompileconfig"
 	"github.com/geeblock/coreth/predicate"
-	"github.com/geeblock/geeblockgo/utils/timer/mockable"
-	"github.com/geeblock/geeblockgo/utils/units"
+	"github.com/geeblock/geego/utils/timer/mockable"
+	"github.com/geeblock/geego/utils/units"
 	"github.com/holiman/uint256"
 )
 

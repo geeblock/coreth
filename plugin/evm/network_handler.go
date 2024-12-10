@@ -6,8 +6,8 @@ package evm
 import (
 	"context"
 
-	"github.com/geeblock/geeblockgo/codec"
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/codec"
+	"github.com/geeblock/geego/ids"
 	"github.com/geeblock/coreth/metrics"
 	"github.com/geeblock/coreth/plugin/evm/message"
 	syncHandlers "github.com/geeblock/coreth/sync/handlers"

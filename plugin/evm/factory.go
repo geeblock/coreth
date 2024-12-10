@@ -4,9 +4,9 @@
 package evm
 
 import (
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/logging"
-	"github.com/geeblock/geeblockgo/vms"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/logging"
+	"github.com/geeblock/geego/vms"
 )
 
 var (

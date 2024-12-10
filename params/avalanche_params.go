@@ -6,7 +6,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/geeblock/geeblockgo/utils/units"
+	"github.com/geeblock/geego/utils/units"
 )
 
 // Minimum Gas Price

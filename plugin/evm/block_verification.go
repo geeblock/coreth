@@ -10,7 +10,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 
-	safemath "github.com/geeblock/geeblockgo/utils/math"
+	safemath "github.com/geeblock/geego/utils/math"
 
 	"github.com/geeblock/coreth/constants"
 	"github.com/geeblock/coreth/core/types"

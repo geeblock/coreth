@@ -10,7 +10,7 @@ import (
 
 	"github.com/geeblock/coreth/params"
 
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/ids"
 	"github.com/geeblock/coreth/core/rawdb"
 	"github.com/geeblock/coreth/plugin/evm/message"
 	"github.com/geeblock/coreth/sync/handlers/stats"

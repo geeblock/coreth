@@ -8,8 +8,8 @@ import (
 	"net/http"
 
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/geeblock/geeblockgo/api"
-	"github.com/geeblock/geeblockgo/utils/profiler"
+	"github.com/geeblock/geego/api"
+	"github.com/geeblock/geego/utils/profiler"
 )
 
 // Admin is the API service for admin API calls

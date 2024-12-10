@@ -31,7 +31,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/geeblock/geeblockgo/upgrade"
+	"github.com/geeblock/geego/upgrade"
 	"github.com/geeblock/coreth/consensus"
 	"github.com/geeblock/coreth/consensus/dummy"
 	"github.com/geeblock/coreth/consensus/misc/eip4844"

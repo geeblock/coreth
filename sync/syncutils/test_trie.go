@@ -9,7 +9,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/geeblock/geeblockgo/utils/wrappers"
+	"github.com/geeblock/geego/utils/wrappers"
 	"github.com/geeblock/coreth/accounts/keystore"
 	"github.com/geeblock/coreth/core/types"
 	"github.com/geeblock/coreth/trie"

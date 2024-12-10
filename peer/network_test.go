@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/geeblock/geeblockgo/network/p2p"
-	"github.com/geeblock/geeblockgo/snow/engine/common"
-	"github.com/geeblock/geeblockgo/snow/engine/enginetest"
-	"github.com/geeblock/geeblockgo/utils/logging"
-	"github.com/geeblock/geeblockgo/utils/set"
+	"github.com/geeblock/geego/network/p2p"
+	"github.com/geeblock/geego/snow/engine/common"
+	"github.com/geeblock/geego/snow/engine/enginetest"
+	"github.com/geeblock/geego/utils/logging"
+	"github.com/geeblock/geego/utils/set"
 	"github.com/prometheus/client_golang/prometheus"
 
 	"github.com/stretchr/testify/assert"
@@ -24,10 +24,10 @@ import (
 
 	"github.com/geeblock/coreth/plugin/evm/message"
 
-	"github.com/geeblock/geeblockgo/codec"
-	"github.com/geeblock/geeblockgo/codec/linearcodec"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/version"
+	"github.com/geeblock/geego/codec"
+	"github.com/geeblock/geego/codec/linearcodec"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/version"
 )
 
 var (

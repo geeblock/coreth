@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/geeblock/geeblockgo/chains/atomic"
-	"github.com/geeblock/geeblockgo/codec"
-	"github.com/geeblock/geeblockgo/database"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/units"
-	"github.com/geeblock/geeblockgo/utils/wrappers"
+	"github.com/geeblock/geego/chains/atomic"
+	"github.com/geeblock/geego/codec"
+	"github.com/geeblock/geego/database"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/units"
+	"github.com/geeblock/geego/utils/wrappers"
 
 	"github.com/geeblock/coreth/core"
 	"github.com/geeblock/coreth/core/rawdb"

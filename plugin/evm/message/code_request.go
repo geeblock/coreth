@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/geeblock/geego/ids"
 	"github.com/ethereum/go-ethereum/common"
 )
 

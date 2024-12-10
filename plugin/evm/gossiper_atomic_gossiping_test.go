@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/set"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/set"
 	"github.com/stretchr/testify/assert"
 
-	commonEng "github.com/geeblock/geeblockgo/snow/engine/common"
+	commonEng "github.com/geeblock/geego/snow/engine/common"
 
 	"github.com/geeblock/coreth/plugin/evm/message"
 )

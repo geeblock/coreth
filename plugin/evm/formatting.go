@@ -8,10 +8,10 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/constants"
-	"github.com/geeblock/geeblockgo/utils/crypto/secp256k1"
-	"github.com/geeblock/geeblockgo/utils/formatting/address"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/constants"
+	"github.com/geeblock/geego/utils/crypto/secp256k1"
+	"github.com/geeblock/geego/utils/formatting/address"
 )
 
 // ParseServiceAddress get address ID from address string, being it either localized (using address manager,

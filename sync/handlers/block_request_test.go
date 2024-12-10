@@ -8,8 +8,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/geeblock/geeblockgo/ids"
-	"github.com/geeblock/geeblockgo/utils/units"
+	"github.com/geeblock/geego/ids"
+	"github.com/geeblock/geego/utils/units"
 	"github.com/geeblock/coreth/consensus/dummy"
 	"github.com/geeblock/coreth/core"
 	"github.com/geeblock/coreth/core/rawdb"

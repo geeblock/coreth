@@ -7,8 +7,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/geeblock/geeblockgo/vms/platformvm/warp"
-	"github.com/geeblock/geeblockgo/vms/platformvm/warp/payload"
+	"github.com/geeblock/geego/vms/platformvm/warp"
+	"github.com/geeblock/geego/vms/platformvm/warp/payload"
 	"github.com/geeblock/coreth/accounts/abi"
 	"github.com/geeblock/coreth/precompile/contract"
 	"github.com/geeblock/coreth/vmerrs"
