@@ -455,7 +455,9 @@ func (vm *VM) Initialize(
 		chainID = params.AvalancheFujiChainID
 		extDataHashes = fujiExtDataHashes
 	case avalanchegoConstants.CreteID:
-		chainID = params.AvalancheCreteChainID
+		chainID = params.CreteChainID
+	case avalanchegoConstants.GeeID:
+		chainID = params.GeeChainID
 	case avalanchegoConstants.LocalID:
 		chainID = params.AvalancheLocalChainID
 	default:

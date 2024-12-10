@@ -43,7 +43,10 @@ func (c *ChainConfig) SetEthUpgrades() {
 	if c.ChainID != nil && AvalancheFujiChainID.Cmp(c.ChainID) == 0 {
 		c.BerlinBlock = big.NewInt(184985) // https://testnet.snowtrace.io/block/184985?chainid=43113, AP2 activation block
 		c.LondonBlock = big.NewInt(805078) // https://testnet.snowtrace.io/block/805078?chainid=43113, AP3 activation block
-	} else if c.ChainID != nil && AvalancheCreteChainID.Cmp(c.ChainID) == 0 {
+	} else if c.ChainID != nil && CreteChainID.Cmp(c.ChainID) == 0 {
+		c.BerlinBlock = big.NewInt(0) // https://snowtrace.io/block/1640340?chainid=43114, AP2 activation block
+		c.LondonBlock = big.NewInt(0) // https://snowtrace.io/block/3308552?chainid=43114, AP3 activation block
+	} else if c.ChainID != nil && GeeChainID.Cmp(c.ChainID) == 0 {
 		c.BerlinBlock = big.NewInt(0) // https://snowtrace.io/block/1640340?chainid=43114, AP2 activation block
 		c.LondonBlock = big.NewInt(0) // https://snowtrace.io/block/3308552?chainid=43114, AP3 activation block
 	} else if c.ChainID != nil && AvalancheMainnetChainID.Cmp(c.ChainID) == 0 {
