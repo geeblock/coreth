@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package evm
@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/ethereum/go-ethereum/log"
 	"github.com/geeblock/geeblockgo/api"
 	"github.com/geeblock/geeblockgo/utils/profiler"
-	"github.com/ethereum/go-ethereum/log"
 )
 
 // Admin is the API service for admin API calls

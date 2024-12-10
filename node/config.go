@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc.
+// (c) 2024-2029, GB Labs, Inc.
 //
 // This file is a derived work, based on the go-ethereum library whose original
 // notices appear below.
@@ -31,10 +31,10 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/ethereum/go-ethereum/log"
 	"github.com/geeblock/coreth/accounts"
 	"github.com/geeblock/coreth/accounts/external"
 	"github.com/geeblock/coreth/accounts/keystore"
-	"github.com/ethereum/go-ethereum/log"
 )
 
 // Config represents a small collection of configuration values to fine tune the

@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc.
+// (c) 2024-2029, GB Labs, Inc.
 //
 // This file is a derived work, based on the go-ethereum library whose original
 // notices appear below.
@@ -34,12 +34,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/geeblock/coreth/accounts/abi/bind"
-	"github.com/geeblock/coreth/cmd/utils"
-	"github.com/geeblock/coreth/internal/flags"
 	"github.com/ethereum/go-ethereum/common/compiler"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/geeblock/coreth/accounts/abi/bind"
+	"github.com/geeblock/coreth/cmd/utils"
+	"github.com/geeblock/coreth/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

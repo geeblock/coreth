@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc.
+// (c) 2024-2029, GB Labs, Inc.
 //
 // This file is a derived work, based on the go-ethereum library whose original
 // notices appear below.
@@ -34,13 +34,13 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/geeblock/coreth/accounts/abi/bind"
 	"github.com/geeblock/coreth/core/types"
 	"github.com/geeblock/coreth/interfaces"
 	"github.com/geeblock/coreth/rpc"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/geeblock/geeblockgo/ids"
 
 	// Force-load precompiles to trigger registration
 	_ "github.com/geeblock/coreth/precompile/registry"

@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package contract
@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/geeblock/coreth/accounts/abi"
 	"github.com/geeblock/coreth/vmerrs"
-	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // Gas costs for stateful precompiles

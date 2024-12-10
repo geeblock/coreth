@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc.
+// (c) 2024-2029, GB Labs, Inc.
 //
 // This file is a derived work, based on the go-ethereum library whose original
 // notices appear below.
@@ -29,9 +29,9 @@ package ethapi
 import (
 	"fmt"
 
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/geeblock/coreth/accounts/abi"
 	"github.com/geeblock/coreth/vmerrs"
-	"github.com/ethereum/go-ethereum/common/hexutil"
 )
 
 // revertError is an API error that encompasses an EVM revert with JSON error

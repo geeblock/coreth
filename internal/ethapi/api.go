@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc.
+// (c) 2024-2029, GB Labs, Inc.
 //
 // This file is a derived work, based on the go-ethereum library whose original
 // notices appear below.
@@ -35,7 +35,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/geeblock/geeblockgo/ids"
+	"github.com/davecgh/go-spew/spew"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/rlp"
 	"github.com/geeblock/coreth/accounts"
 	"github.com/geeblock/coreth/accounts/keystore"
 	"github.com/geeblock/coreth/accounts/scwallet"
@@ -49,13 +55,7 @@ import (
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/rpc"
 	"github.com/geeblock/coreth/trie"
-	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/geeblock/geeblockgo/ids"
 	"github.com/holiman/uint256"
 	"github.com/tyler-smith/go-bip39"
 )

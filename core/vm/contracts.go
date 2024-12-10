@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc.
+// (c) 2024-2029, GB Labs, Inc.
 //
 // This file is a derived work, based on the go-ethereum library whose original
 // notices appear below.
@@ -33,10 +33,6 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/geeblock/coreth/params"
-	"github.com/geeblock/coreth/precompile/contract"
-	"github.com/geeblock/coreth/precompile/modules"
-	"github.com/geeblock/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/crypto"
@@ -44,6 +40,10 @@ import (
 	"github.com/ethereum/go-ethereum/crypto/bls12381"
 	"github.com/ethereum/go-ethereum/crypto/bn256"
 	"github.com/ethereum/go-ethereum/crypto/kzg4844"
+	"github.com/geeblock/coreth/params"
+	"github.com/geeblock/coreth/precompile/contract"
+	"github.com/geeblock/coreth/precompile/modules"
+	"github.com/geeblock/coreth/vmerrs"
 	"golang.org/x/crypto/ripemd160"
 )
 

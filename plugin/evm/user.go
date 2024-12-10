@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package evm
@@ -6,10 +6,10 @@ package evm
 import (
 	"errors"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/geeblock/geeblockgo/database/encdb"
 	"github.com/geeblock/geeblockgo/ids"
 	"github.com/geeblock/geeblockgo/utils/crypto/secp256k1"
-	"github.com/ethereum/go-ethereum/common"
 )
 
 // Key in the database whose corresponding value is the list of

@@ -1,11 +1,11 @@
-// (c) 2019-2020, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package vm
 
 import (
-	"github.com/geeblock/coreth/precompile/contract"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/geeblock/coreth/precompile/contract"
 )
 
 // wrappedPrecompiledContract implements StatefulPrecompiledContract by wrapping stateless native precompiled contracts

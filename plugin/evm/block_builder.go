@@ -1,4 +1,4 @@
-// (c) 2019-2021, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package evm
@@ -7,15 +7,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/geeblock/geeblockgo/utils/timer"
 	"github.com/geeblock/coreth/core"
 	"github.com/geeblock/coreth/core/txpool"
 	"github.com/geeblock/coreth/params"
+	"github.com/geeblock/geeblockgo/utils/timer"
 	"github.com/holiman/uint256"
 
+	"github.com/ethereum/go-ethereum/log"
 	"github.com/geeblock/geeblockgo/snow"
 	commonEng "github.com/geeblock/geeblockgo/snow/engine/common"
-	"github.com/ethereum/go-ethereum/log"
 )
 
 const (

@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc.
+// (c) 2024-2029, GB Labs, Inc.
 //
 // This file is a derived work, based on the go-ethereum library whose original
 // notices appear below.
@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/geeblock/coreth/metrics"
-	"github.com/geeblock/coreth/utils"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/geeblock/coreth/metrics"
+	"github.com/geeblock/coreth/utils"
 )
 
 // triePrefetchMetricsPrefix is the prefix under which to publish the metrics.

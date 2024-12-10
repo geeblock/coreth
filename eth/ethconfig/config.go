@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc.
+// (c) 2024-2029, GB Labs, Inc.
 //
 // This file is a derived work, based on the go-ethereum library whose original
 // notices appear below.
@@ -29,13 +29,13 @@ package ethconfig
 import (
 	"time"
 
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/geeblock/coreth/core"
 	"github.com/geeblock/coreth/core/txpool/blobpool"
 	"github.com/geeblock/coreth/core/txpool/legacypool"
 	"github.com/geeblock/coreth/eth/gasprice"
 	"github.com/geeblock/coreth/miner"
 	"github.com/geeblock/coreth/params"
-	"github.com/ethereum/go-ethereum/common"
 )
 
 // DefaultFullGPOConfig contains default gasprice oracle settings for full node.

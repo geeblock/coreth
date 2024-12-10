@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package evm
@@ -6,12 +6,12 @@ package evm
 import (
 	"fmt"
 
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/geeblock/geeblockgo/ids"
 	"github.com/geeblock/geeblockgo/utils/constants"
 	"github.com/geeblock/geeblockgo/utils/crypto/secp256k1"
 	"github.com/geeblock/geeblockgo/utils/formatting/address"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
 )
 
 // ParseServiceAddress get address ID from address string, being it either localized (using address manager,

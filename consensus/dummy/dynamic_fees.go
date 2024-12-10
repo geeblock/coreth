@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package dummy
@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/geeblock/geeblockgo/utils/wrappers"
-	"github.com/geeblock/coreth/core/types"
-	"github.com/geeblock/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/geeblock/coreth/core/types"
+	"github.com/geeblock/coreth/params"
+	"github.com/geeblock/geeblockgo/utils/wrappers"
 )
 
 var (

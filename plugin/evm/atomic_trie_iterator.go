@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package evm
@@ -12,8 +12,8 @@ import (
 	"github.com/geeblock/geeblockgo/ids"
 	"github.com/geeblock/geeblockgo/utils/wrappers"
 
-	"github.com/geeblock/coreth/trie"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/geeblock/coreth/trie"
 )
 
 const atomicTrieKeyLen = wrappers.LongLen + common.HashLength

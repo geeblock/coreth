@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package evm
@@ -6,8 +6,8 @@ package evm
 import (
 	"errors"
 
-	"github.com/geeblock/geeblockgo/database"
 	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/geeblock/geeblockgo/database"
 )
 
 var (

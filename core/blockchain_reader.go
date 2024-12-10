@@ -1,4 +1,4 @@
-// (c) 2019-2021, Ava Labs, Inc.
+// (c) 2024-2029, GB Labs, Inc.
 //
 // This file is a derived work, based on the go-ethereum library whose original
 // notices appear below.
@@ -27,6 +27,8 @@
 package core
 
 import (
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/event"
 	"github.com/geeblock/coreth/consensus"
 	"github.com/geeblock/coreth/core/rawdb"
 	"github.com/geeblock/coreth/core/state"
@@ -35,8 +37,6 @@ import (
 	"github.com/geeblock/coreth/core/vm"
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/triedb"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
 )
 
 // CurrentHeader retrieves the current head header of the canonical chain. The

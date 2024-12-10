@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package evm
@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/geeblock/coreth/core/txpool/legacypool"
-	"github.com/geeblock/coreth/eth"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/geeblock/coreth/core/txpool/legacypool"
+	"github.com/geeblock/coreth/eth"
 	"github.com/spf13/cast"
 )
 

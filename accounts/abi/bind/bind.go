@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc.
+// (c) 2024-2029, GB Labs, Inc.
 //
 // This file is a derived work, based on the go-ethereum library whose original
 // notices appear below.
@@ -39,8 +39,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/geeblock/coreth/accounts/abi"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/geeblock/coreth/accounts/abi"
 )
 
 // Lang is a target programming language selector to generate bindings for.

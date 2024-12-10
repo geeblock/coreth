@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc.
+// (c) 2024-2029, GB Labs, Inc.
 //
 // This file is a derived work, based on the go-ethereum library whose original
 // notices appear below.
@@ -36,8 +36,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/geeblock/coreth/internal/flags"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/geeblock/coreth/internal/flags"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"github.com/urfave/cli/v2"

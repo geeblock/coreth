@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package evm
@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/geeblock/coreth/log"
 	gethlog "github.com/ethereum/go-ethereum/log"
+	"github.com/geeblock/coreth/log"
 	"golang.org/x/exp/slog"
 )
 

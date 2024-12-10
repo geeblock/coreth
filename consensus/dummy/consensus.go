@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package dummy
@@ -10,14 +10,14 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/geeblock/geeblockgo/utils/timer/mockable"
+	"github.com/ethereum/go-ethereum/common"
 	"github.com/geeblock/coreth/consensus"
 	"github.com/geeblock/coreth/consensus/misc/eip4844"
 	"github.com/geeblock/coreth/core/state"
 	"github.com/geeblock/coreth/core/types"
 	"github.com/geeblock/coreth/params"
 	"github.com/geeblock/coreth/trie"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/geeblock/geeblockgo/utils/timer/mockable"
 )
 
 var (

@@ -1,4 +1,4 @@
-// (c) 2022, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package params
@@ -233,6 +233,6 @@ func (n *NetworkUpgrades) GetAvalancheRules(timestamp uint64) AvalancheRules {
 		IsBanff:             true,
 		IsCortina:           true,
 		IsDurango:           true,
-		IsEtna:              true,
+		IsEtna:              false,
 	}
 }

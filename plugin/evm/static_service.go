@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package evm
@@ -7,8 +7,8 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/geeblock/geeblockgo/utils/formatting"
 	"github.com/geeblock/coreth/core"
+	"github.com/geeblock/geeblockgo/utils/formatting"
 )
 
 // StaticService defines the static API services exposed by the evm

@@ -1,4 +1,4 @@
-// (c) 2019-2024, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package ethapi
@@ -7,12 +7,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/geeblock/coreth/core"
-	"github.com/geeblock/coreth/params"
-	"github.com/geeblock/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/geeblock/coreth/core"
+	"github.com/geeblock/coreth/params"
+	"github.com/geeblock/coreth/rpc"
 )
 
 // GetChainConfig returns the chain config.

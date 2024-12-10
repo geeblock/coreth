@@ -1,4 +1,4 @@
-// (c) 2019-2020, Ava Labs, Inc. All rights reserved.
+// (c) 2024-2029, GB Labs, Inc. All rights reserved.
 // See the file LICENSE for licensing terms.
 
 package evm
@@ -14,8 +14,8 @@ import (
 	"github.com/geeblock/geeblockgo/snow"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/geeblock/coreth/metrics"
 	"github.com/ethereum/go-ethereum/log"
+	"github.com/geeblock/coreth/metrics"
 )
 
 const (

@@ -1,4 +1,4 @@
-// (c) 2019-2021, Ava Labs, Inc.
+// (c) 2024-2029, GB Labs, Inc.
 //
 // This file is a derived work, based on the go-ethereum library whose original
 // notices appear below.
@@ -29,10 +29,10 @@ package vm
 import (
 	"errors"
 
-	"github.com/geeblock/coreth/params"
-	"github.com/geeblock/coreth/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
+	"github.com/geeblock/coreth/params"
+	"github.com/geeblock/coreth/vmerrs"
 )
 
 func makeGasSStoreFunc() gasFunc {
