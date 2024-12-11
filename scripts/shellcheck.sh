@@ -9,7 +9,7 @@ VERSION="v0.9.0"
 IGNORED_FILES="
   cmd/evm/transition-test.sh
   metrics/validate.sh
-  avalanchego/*
+  geego/*
 "
 
 function get_version {
